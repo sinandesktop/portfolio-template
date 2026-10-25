@@ -1,19 +1,23 @@
 {
-    "name": "Your Name",
-    "tagline": "Your one-line introduction",
-    "bio": "Write 2 or 3 sentences about yourself.",
-    "skills": [
-        "Git",
-        "HTML"
-    ],
-    "projects": [
-        {
-            "title": "My first project",
-            "desc": "What it does.",
-            "link": "https://github.com/yourname"
-        }
-    ],
-    "links": {
-        "github": "https://github.com/yourname"
+  "name": "Muhammed Sinan S.",
+  "tagline": "Aspiring AI Software Engineer | AI, Automation & Agentic Systems",
+  "bio": "I am a second-year B.Tech student at TKM College of Engineering, passionate about software development, artificial intelligence, and automation. I am building my skills through hands-on projects and open-source contributions, with the goal of developing practical AI-powered solutions.",
+  "skills": [
+    "Python",
+    "Git",
+    "GitHub",
+    "HTML",
+    "CSS"
+  ],
+  "projects": [
+    {
+      "title": "Agriguard AI",
+      "desc": "Explore my Agriguard AI project and its implementation in the GitHub repository.",
+      "link": "https://github.com/sinandesktop/Agriguard-Ai"
     }
+  ],
+  "links": {
+    "github": "https://github.com/sinandesktop",
+    "linkedin": "https://www.linkedin.com/in/muhammed-sinan-s-6a7541402/"
+  }
 }
