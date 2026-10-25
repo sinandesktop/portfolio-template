@@ -1,35 +1,42 @@
+
 <!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
+  <meta name="description" content="Explore Muhammed Sinan S.'s portfolio, skills, projects, and journey toward AI software engineering.">
+  <meta name="theme-color" content="#080d1a">
+  <title>Muhammed Sinan S. | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <header class="hero">
-    <h1 id="name"></h1>
-    <p id="tagline"></p>
-    <nav id="links"></nav>
+    <h1 id="name">Muhammed Sinan S.</h1>
+    <p id="tagline">Aspiring AI Software Engineer | AI, Automation &amp; Agentic Systems</p>
+    <nav id="links" aria-label="Social and professional links"></nav>
   </header>
+
   <main>
-    <section>
-      <h2>About</h2>
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
       <p id="bio"></p>
     </section>
-    <section>
-      <h2>Skills</h2>
+
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
       <ul id="skills" class="chips"></ul>
     </section>
-    <section>
-      <h2>Projects</h2>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
       <div id="projects" class="grid"></div>
     </section>
   </main>
+
   <footer id="footer"></footer>
-  <script src="script.js"></script>
 </body>
 
 </html>
